@@ -1,4 +1,10 @@
-# <img src="./figs/eye.jpg" height="30" /> ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+# ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+<a href="https://arxiv.org/abs/2508.10333" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/ReconVLA-red?label=arXiv&color=red" height="25" />
+</a>
+<a href="https://zionchow.github.io/ReconVLA/" target="_blank">
+    <img alt="project" src="https://img.shields.io/badge/ReconVLA-blue?label=Project&color=blue" height="25" />
+</a>
 
 We present ReconVLA, an implicit grounding paradigm for Vision-Language-Action models that reconstructs gaze regions to focus visual attention, achieving precise manipulation and strong generalization with only 100k+ trajectories. Key contributions include:
 - **Implicit Grounding Architecture**: Reconstructive VLA paradigm that aligns gaze regions with manipulated targets, enforcing precise visual attention and fine-grained representation learning.
