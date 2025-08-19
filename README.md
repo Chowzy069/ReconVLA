@@ -192,7 +192,10 @@ Below is an explanation of the most commonly adjusted parameters:
 If you find this work useful, please cite:
 
 ```bibtex
-@article{,
-
+@article{song2025reconvla,
+  title={ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver},
+  author={Song, Wenxuan and Zhou, Ziyang and Zhao, Han and Chen, Jiayi and Ding, Pengxiang and Yan, Haodong and Huang, Yuxin and Tang, Feilong and Wang, Donglin and Li, Haoang},
+  journal={arXiv preprint arXiv:2508.10333},
+  year={2025}
 }
 ```
