@@ -5,6 +5,9 @@
 <a href="https://zionchow.github.io/ReconVLA/" target="_blank">
     <img alt="project" src="https://img.shields.io/badge/ReconVLA-blue?label=Project&color=blue" height="25" />
 </a>
+<a href="https://huggingface.co/zzyzyzy/ReconVLA" target="_blank">
+    <img alt="HF Model: ReconVLA" src="https://img.shields.io/badge/ReconVLA-yellow?label=Model(consistent-training-free)&color=ffd400" height="25" />
+</a>
 
 We present ReconVLA, an implicit grounding paradigm for Vision-Language-Action models that reconstructs gaze regions to focus visual attention, achieving precise manipulation and strong generalization with only 100k+ trajectories. Key contributions include:
 - **Implicit Grounding Architecture**: Reconstructive VLA paradigm that aligns gaze regions with manipulated targets, enforcing precise visual attention and fine-grained representation learning.
@@ -193,10 +196,7 @@ Below is an explanation of the most commonly adjusted parameters:
 If you find this work useful, please cite:
 
 ```bibtex
-@article{song2025reconvla,
-  title={ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver},
-  author={Song, Wenxuan and Zhou, Ziyang and Zhao, Han and Chen, Jiayi and Ding, Pengxiang and Yan, Haodong and Huang, Yuxin and Tang, Feilong and Wang, Donglin and Li, Haoang},
-  journal={arXiv preprint arXiv:2508.10333},
-  year={2025}
+@article{,
+
 }
 ```
