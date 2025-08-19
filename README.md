@@ -20,10 +20,6 @@ We present ReconVLA, an implicit grounding paradigm for Vision-Language-Action m
 ![teaser](./figs/arch.jpg)
 Our model consists of a reconstructive part and an action part. The input includes multi-view images and a text instruction. For the action part, the model outputs discrete action tokens. For the reconstruction part, Reconvla is guided to output reconstructive tokens, which are conditions of the denoising process to reconstruct the scene tokens $z_0$ from noisy $z_t$. The scene tokens are tokenized images of gaze regions. This supervision enables Reconvla to enhance visual grounding and fine-grained comprehension capabilities, which contribute to precise manipulation.
 
-## 📦 Model Zoo
-Please follow the steps below to start the model server. We provide the checkpoint of ReconVLA on both [huggingface]() and [Baidu cloud](). 
-
-
 
 
 ## Getting Started <a name="installation"></a>
