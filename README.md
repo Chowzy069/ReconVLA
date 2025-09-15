@@ -192,7 +192,7 @@ Below is an explanation of the most commonly adjusted parameters:
 
 For further discussion and collaboration, please feel free to contact us via WeChat:
 
-<div align="center">
+<div align="left">
 <table>
 <tr>
 <td align="center">
