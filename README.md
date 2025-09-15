@@ -1,4 +1,13 @@
 # ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+<a href="https://arxiv.org/abs/2508.10333" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/ReconVLA-red?label=arXiv&color=red" height="25" />
+</a>
+<a href="https://zionchow.github.io/ReconVLA/" target="_blank">
+    <img alt="project" src="https://img.shields.io/badge/ReconVLA-blue?label=Project&color=blue" height="25" />
+</a>
+<a href="https://huggingface.co/zzyzyzy/ReconVLA" target="_blank">
+    <img alt="HF Model: ReconVLA" src="https://img.shields.io/badge/ReconVLA-yellow?label=Model(consistent-training-free)&color=ffd400" height="25" />
+</a>
 
 We present ReconVLA, an implicit grounding paradigm for Vision-Language-Action models that reconstructs gaze regions to focus visual attention, achieving precise manipulation and strong generalization with only 100k+ trajectories. Key contributions include:
 - **Implicit Grounding Architecture**: Reconstructive VLA paradigm that aligns gaze regions with manipulated targets, enforcing precise visual attention and fine-grained representation learning.
@@ -10,10 +19,6 @@ We present ReconVLA, an implicit grounding paradigm for Vision-Language-Action m
 ## 📊 Overview
 ![teaser](./figs/arch.jpg)
 Our model consists of a reconstructive part and an action part. The input includes multi-view images and a text instruction. For the action part, the model outputs discrete action tokens. For the reconstruction part, Reconvla is guided to output reconstructive tokens, which are conditions of the denoising process to reconstruct the scene tokens $z_0$ from noisy $z_t$. The scene tokens are tokenized images of gaze regions. This supervision enables Reconvla to enhance visual grounding and fine-grained comprehension capabilities, which contribute to precise manipulation.
-
-## 📦 Model Zoo
-Please follow the steps below to start the model server. We provide the checkpoint of ReconVLA on both [huggingface]() and [Baidu cloud](). 
-
 
 
 
@@ -182,12 +187,36 @@ CUDA_VISIBLE_DEVICES specifies the number of GPUs (e.g., if you have two GPUs, i
 Below is an explanation of the most commonly adjusted parameters:
 - `model_path`: Path to the model checkpoint.
 - `action_stat`: Action normalization stats.
+
+## Contact
+
+For further discussion and collaboration, please feel free to contact us via WeChat:
+
+<div align="center">
+<table>
+<tr>
+<td align="center">
+<strong>Wenxuan Song</strong><br>
+<img src="./figs/qr/wx.jpg" alt="Wenxuan Song WeChat QR Code" width="150"/>
+</td>
+<td align="center">
+<strong>Ziyang Zhou</strong><br>
+<img src="./figs/qr/zy.jpg" alt="Ziyang Zhou WeChat QR Code" width="154"/>
+</td>
+</tr>
+</table>
+</div>
+
+
 ## 📑Citation
 
 If you find this work useful, please cite:
 
 ```bibtex
-@article{,
-
+@article{song2025reconvla,
+  title={ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver},
+  author={Song, Wenxuan and Zhou, Ziyang and Zhao, Han and Chen, Jiayi and Ding, Pengxiang and Yan, Haodong and Huang, Yuxin and Tang, Feilong and Wang, Donglin and Li, Haoang},
+  journal={arXiv preprint arXiv:2508.10333},
+  year={2025}
 }
 ```
