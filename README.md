@@ -12,9 +12,6 @@
 We present ReconVLA, an implicit grounding paradigm for Vision-Language-Action models that reconstructs gaze regions to focus visual attention, achieving precise manipulation and strong generalization with only 100k+ trajectories. Key contributions include:
 - **Implicit Grounding Architecture**: Reconstructive VLA paradigm that aligns gaze regions with manipulated targets, enforcing precise visual attention and fine-grained representation learning.
 - **Large-scale Pretraining Foundation**:100k+ trajectory dataset (2M+ samples) boosting generalization of visual reconstruction capabilities.
-## 🔥 News
-
-## 📝 TODO
 
 ## 📊 Overview
 ![teaser](./figs/arch.jpg)
